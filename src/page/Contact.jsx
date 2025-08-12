@@ -40,14 +40,14 @@ const Contact = () => {
     position: "fixed",
     top: "535px",
     left: "32px",
-    zIndex: 10,
+    zIndex: -1,
     background: "transparent",
     border: "none",
     display: "flex",
     flexDirection: "column",
     alignItems: "center",
     cursor: "pointer",
-    zIndex : -1
+   
   }}
 >
   <img

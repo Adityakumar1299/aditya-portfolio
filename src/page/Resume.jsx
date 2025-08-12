@@ -43,7 +43,6 @@ function Resume() {
           position: "fixed",
           top: "122px",
           left: "23px",
-          zIndex: 0,
           background: "transparent",
           border: "none",
           display: "flex",
