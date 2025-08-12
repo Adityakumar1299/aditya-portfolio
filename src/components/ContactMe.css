@@ -1,0 +1,79 @@
+/* ContactMe.css */
+
+.retro-contact-window {
+  position: absolute;
+  width: 320px;
+  background-color: #c0c0c0;
+  border: 2px solid #000;
+  box-shadow: 4px 4px 0 #808080;
+  z-index: 999;
+ margin-left: -207px;
+
+}
+
+.retro-title-bar {
+  background: linear-gradient(to right, #000080, #0000cd);
+  color: white;
+  padding: 6px 10px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: move;
+  font-family: 'W95FA', sans-serif;
+}
+
+.retro-buttons {
+  display: flex;
+  gap: 4px;
+}
+
+.retro-buttons button {
+  background-color: #c0c0c0;
+  border: 2px outset #fff;
+  width: 18px;
+  height: 18px;
+  padding: 0;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.retro-buttons .close {
+  background-color: #ff0000;
+  color: white;
+  border: 2px outset #fff;
+}
+
+.retro-contact-body {
+  padding: 10px;
+  font-family: 'W95FA', sans-serif;
+  font-size: 14px;
+  background-color: #e0e0e0;
+}
+
+.retro-contact-item {
+  margin-bottom: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+.retro-contact-label {
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 4px;
+  
+}
+
+.retro-contact-value {
+  height: 24px;
+  padding: 6px;
+  background-color: #fff;
+  border: 1px solid #808080;
+  color: #000;
+  white-space: pre; /* keeps spaces in typing */
+  font-family: 'W95FA', sans-serif;
+
+}
+
+/*  */
+

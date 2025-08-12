@@ -1,0 +1,39 @@
+.resume-page {
+  display: flex;
+  align-items: center;
+}
+
+.resume-open-button {
+  padding: 10px 20px;
+  font-size: 14px;
+  font-family: 'W95FA', sans-serif;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  
+}
+
+.resume-image {
+  width: 100%;
+  height: auto;
+  max-height: 80vh;
+  object-fit: contain;
+  display: block;
+  margin: auto;
+}
+.resume-download-button {
+  display: inline-block;
+  margin-top: 16px;
+  padding: 10px 20px;
+  background-color: #0078d4;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background-color 0.2s;
+}
+
+.resume-download-button:hover {
+  background-color: navy;
+}
+
