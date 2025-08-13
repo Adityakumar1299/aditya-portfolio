@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import RetroSkill from "../components/RetroSkills"; // make sure you have this component
 import "./Skill.css"; // you'll create this for retro styling
-import skillIcon from "../assets/Skill.png";
+import skillIcon from "../assets/Skill.PNG";
 
 function Skill() {
   const [loading, setLoading] = useState(false);
