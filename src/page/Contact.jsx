@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from "react";
 import ContactMe from "../components/ContactMe";
 import "./Contact.css";
-import contactIcon from "../assets/Contacts.png";
+import contactIcon from '../assets/Contacts.png';
 
 const Contact = () => {
   const [loading, setLoading] = useState(false);
