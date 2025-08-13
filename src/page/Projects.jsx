@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import RetroBrowser from '../components/RetroBrowser';
-import projectIcon2 from "../assets/Project2.PNG";
+import projectIcon2 from '../assets/Project2.PNG';
 // import './Projects.css'; // Make sure loader styles are in here
 
 const Projects = () => {
