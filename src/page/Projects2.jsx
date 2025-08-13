@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import RetroBrowser from '../components/RetroBrowser';
-import projectIcon from "../assets/Project.PNG";
+import projectIcon from '../assets/project.png';
 
 const Projects2 = () => {
   const [loading, setLoading] = useState(false);

@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import RetroBrowser from '../components/RetroBrowser';
-import project2Image from '../assets/project2.png';
-
+import projectIcon2 from '../assets/project2.png';
 // import './Projects.css'; // Make sure loader styles are in here
 
 const Projects = () => {
@@ -50,7 +49,7 @@ const Projects = () => {
         }}
       >
         <img
-          src={project2Image}
+          src={projectIcon2}
           alt="project"
           width="60"
           height="60"
