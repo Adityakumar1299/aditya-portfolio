@@ -4,7 +4,7 @@ import ShowDetail from "../components/ShowDetail";
 import resumeImg from "../assets/resume.png";
 import resumePDF from "../assets/Aditya_Resume.pdf"; // import PDF
 import "./Resume.css";
-import resumeIcon from '../assets/no-bg.png';
+// import resumeIcon from '../assets/no-bg.png';
 
 function Resume() {
   const [loading, setLoading] = useState(false);
@@ -52,7 +52,8 @@ function Resume() {
         }}
       >
         <img
-          src={resumeIcon}
+          // src={resumeIcon}
+           src={require("../assets/no-bg.png")}
           alt="Resume"
           width="60"
           height="60"

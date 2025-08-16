@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import RetroSkill from "../components/RetroSkills"; // make sure you have this component
 import "./Skill.css"; // you'll create this for retro styling
-import skillIcon from '../assets/skill.png';
+// import skillIcon from '../assets/skill.png';
 
 function Skill() {
   const [loading, setLoading] = useState(false);
@@ -48,7 +48,8 @@ function Skill() {
     cursor: "pointer",
   }}>
       <img
-             src={skillIcon}
+            //  src={skillIcon}
+               src={require("../assets/skill.png")}
              alt="project"
              width="60"
           height="60"
