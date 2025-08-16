@@ -29,6 +29,7 @@ function Resume() {
     }, 80); // Adjust speed here if needed
   };
 
+  
   const handleCloseResume = () => {
     setShowResume(false);
   };
