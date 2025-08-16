@@ -48,7 +48,7 @@ function Home() {
     cursor: "pointer",
   }}>
          <img
-                src={userImg}
+                src={require("../assets/user.png")}
                 alt="project"
                 width="60"
                 height="60"
