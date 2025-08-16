@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import ShowDetailHome from "../components/ShowDetailsHome";
 import "./Home.css";
-import userImg from "../../assets/user.png";
+// import userImg from "../../assets/user.png";
 
 
 function Home() {
