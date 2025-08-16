@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from "react";
 import ShowDetailHome from "../components/ShowDetailsHome";
 import "./Home.css";
-// import userImg from "../../assets/user.png";
-
+import userIcon from '../assets/user.png';
 
 function Home() {
   const [loading, setLoading] = useState(false);
@@ -48,7 +47,7 @@ function Home() {
     cursor: "pointer",
   }}>
          <img
-                src={require("../assets/user.png")}
+                src={userIcon}
                 alt="project"
                 width="60"
                 height="60"
