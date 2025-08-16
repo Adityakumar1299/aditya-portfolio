@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import RetroBrowser from '../components/RetroBrowser';
-import projectIcon from '../assets/project.png';
+// import projectImg from '../assets/project.png';
+import projectImg from "../../assets/project.png";
+
 
 const Projects2 = () => {
   const [loading, setLoading] = useState(false);
@@ -49,7 +51,7 @@ const Projects2 = () => {
         }}
       >
         <img
-          src={projectIcon}
+          src={projectImg}
           alt="project"
           width="60"
           height="60"
