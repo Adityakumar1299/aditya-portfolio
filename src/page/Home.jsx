@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import ShowDetailHome from "../components/ShowDetailsHome";
 import "./Home.css";
-import userIcon from '../assets/user.png';
+import userIcon from './assets/user.png';
 
 function Home() {
   const [loading, setLoading] = useState(false);
