@@ -48,7 +48,7 @@ function Home() {
   }}>
          <img
                 src="/user.png"
-                alt="project"
+                alt="user"
                 width="60"
                 height="60"
               />
