@@ -52,7 +52,7 @@ const Contact = () => {
 >
   <img
     src="/contacts.png"
-    alt="contact"
+    alt="contacts"
    width="60"
           height="60"
   />
