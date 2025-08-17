@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
 import ShowDetailHome from "../components/ShowDetailsHome";
 import "./Home.css";
-import userIcon from './assets/user.png';
+import user from "../assets/user.png";
+
 
 function Home() {
   const [loading, setLoading] = useState(false);
@@ -47,8 +48,8 @@ function Home() {
     cursor: "pointer",
   }}>
          <img
-                src={userIcon}
-                alt="project"
+                src={user}
+                alt="user"
                 width="60"
                 height="60"
               />
