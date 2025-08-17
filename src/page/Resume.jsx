@@ -1,7 +1,7 @@
 // src/pages/Resume.js
 import React, { useState } from "react";
 import ShowDetail from "../components/ShowDetail";
-import resumeImg from "../assets/resume.png";
+import resume from "../assets/resume.png";
 import resumePDF from "../assets/Aditya_Resume.pdf"; // import PDF
 import "./Resume.css";
 import resumeIcon from '../assets/no-bg.png';
@@ -53,7 +53,7 @@ function Resume() {
         }}
       >
         <img
-          src={resumeIcon}
+          src={resume}
           alt="Resume"
           width="60"
           height="60"

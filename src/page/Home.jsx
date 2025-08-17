@@ -48,7 +48,7 @@ function Home() {
     cursor: "pointer",
   }}>
          <img
-                src={user}
+                src="/assets/user.png"
                 alt="user"
                 width="60"
                 height="60"
