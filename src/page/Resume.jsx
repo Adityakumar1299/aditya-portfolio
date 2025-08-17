@@ -53,7 +53,7 @@ function Resume() {
         }}
       >
         <img
-          src={resumeIcon}
+          src="no-bg.png"
           alt="Resume"
           width="60"
           height="60"
@@ -86,7 +86,8 @@ function Resume() {
           <ShowDetail onClose={handleCloseResume}>
             <div style={{ textAlign: "center" }}>
               <img
-                src={resumeImg}
+                // src={resumeImg}
+                src="resume.png"
                 alt="My Resume"
                 className="resume-image"
                 style={{ maxWidth: "100%", height: "auto" }}

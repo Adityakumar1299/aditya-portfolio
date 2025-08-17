@@ -50,7 +50,7 @@ const Projects2 = () => {
         }}
       >
         <img
-          src={projectImg}
+          src="project.png"
           alt="project"
           width="60"
           height="60"

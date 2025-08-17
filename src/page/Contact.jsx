@@ -51,7 +51,7 @@ const Contact = () => {
   }}
 >
   <img
-    src={contactIcon}
+    src="/contacts.png"
     alt="contact"
    width="60"
           height="60"

@@ -49,7 +49,7 @@ const Projects = () => {
         }}
       >
         <img
-          src={projectIcon2}
+          src="project2.png"
           alt="project"
           width="60"
           height="60"

@@ -48,7 +48,7 @@ function Skill() {
     cursor: "pointer",
   }}>
       <img
-             src={skillIcon}
+             src="skill.png"
              alt="project"
              width="60"
           height="60"
