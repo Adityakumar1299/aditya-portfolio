@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import RetroBrowser from '../components/RetroBrowser';
-import projectImg from "../assets/project.png";
+// import projectImg from "../assets/project.png";
 
 
 const Projects2 = () => {
