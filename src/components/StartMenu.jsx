@@ -5,12 +5,12 @@ import RetroSkills from "./RetroSkills";
 import RetroBrowser from "./RetroBrowser";
 import ContactMe from "./ContactMe";
 import resumePDF from "../assets/Aditya_Resume.pdf";
-import contactIcon from "../assets/Contacts.png";
-import userIcon from "../assets/user.png";
-import resumeIcon from "../assets/no-bg.png";
-import projectIcon2 from "../assets/project2.png";
-import projectIcon from "../assets/project.png";
-import skillIcon from "../assets/skill.png";
+// import contactIcon from "../assets/Contacts.png";
+// import userIcon from "../assets/user.png";
+// import resumeIcon from "../assets/no-bg.png";
+// import projectIcon2 from "../assets/project2.png";
+// import projectIcon from "../assets/project.png";
+// import skillIcon from "../assets/skill.png";
 import "./StartMenu.css";
 import "./ShutdownScreen.css"; // New CSS for shutdown effect
 
@@ -124,34 +124,34 @@ function StartMenu() {
       {/* Right Menu Items */}
       <div className="menu-items">
         <button onClick={() => openWindow("portfolio")}>
-          <img src={userIcon} alt="About Me" />
+          <img src="/user.png" alt="About Me" />
           <span>About Me&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▶</span>
         </button>
         <button onClick={() => openWindow("resume")}>
-          <img src={resumeIcon} alt="Resume" />
+          <img  src="no-bg.png" alt="Resume" />
           <span>
             Resume&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▶
           </span>
         </button>
         <button onClick={() => openWindow("project1")}>
-          <img src={projectIcon2} alt="Project" />
+          <img   src="project2.png" alt="Project" />
           <span>
             Project&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▶
           </span>
         </button>
         <button onClick={() => openWindow("project2")}>
-          <img src={projectIcon} alt="Project 2" />
+          <img src="project.png" alt="Project 2" />
           <span>
             Project 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▶
           </span>
         </button>
         <button onClick={() => openWindow("skills")}>
-          <img src={skillIcon} alt="Skills" />
+          <img  src="skill.png" alt="Skills" />
 
           <span>Skill Level&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▶</span>
         </button>
         <button onClick={() => openWindow("contact")}>
-          <img src={contactIcon} alt="Contact" />
+          <img src="/contacts.png" alt="Contact" />
           <span>
             Contact&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▶
           </span>
