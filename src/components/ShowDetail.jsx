@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
 // import resumePDF from "../assets/Aditya_Resume.pdf";
-import resumePDF from "../assets/Aditya_Resume.pdf";
+import resume from "../assets/Aditya_Resume.pdf";
 import "./ShowDetail.css";
 
 function ShowDetail({ onClose, children }) {
@@ -89,7 +89,7 @@ function ShowDetail({ onClose, children }) {
         <span className="showdetail-title">
           Show Detail
           <a
-            href={resumePDF}
+            href={resume}
             // download="Aditya_Resume.pdf"
             documentsList="Aditya_Resume.pdf"
             className="win95-button download-button"
