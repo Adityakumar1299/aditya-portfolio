@@ -91,7 +91,7 @@ function ShowDetail({ onClose, children }) {
           <a
             href={resume}
             // download="Aditya_Resume.pdf"
-            documentsList="Aditya_Resume.pdf"
+            documents="Aditya_Resume.pdf"
             className="win95-button download-button"
           >
             ⬇ Download PDF
