@@ -87,7 +87,7 @@ function Resume() {
             <div style={{ textAlign: "center" }}>
               <img
                 // src={resumeImg}
-                src="resume.pdf"
+                src="resume.png"
                 alt="My Resume"
                 className="resume-image"
                 style={{ maxWidth: "100%", height: "auto" }}

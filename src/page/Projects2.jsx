@@ -64,7 +64,7 @@ const Projects2 = () => {
             fontSize: "16px",
           }}
         >
-          Project 2 Hode-hub
+          Project 2
         </span>
       </button>
 
