@@ -1,4 +1,5 @@
 import React, { useState, useRef, useEffect } from "react";
+// import resumePDF from "../assets/Aditya_Resume.pdf";
 import resumePDF from "../assets/Aditya_Resume.pdf";
 import "./ShowDetail.css";
 
@@ -89,7 +90,8 @@ function ShowDetail({ onClose, children }) {
           Show Detail
           <a
             href={resumePDF}
-            download="Aditya_Resume.pdf"
+            // download="Aditya_Resume.pdf"
+            documentsList="Aditya_Resume.pdf"
             className="win95-button download-button"
           >
             ⬇ Download PDF
