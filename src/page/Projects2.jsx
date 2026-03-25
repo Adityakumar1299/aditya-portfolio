@@ -64,7 +64,7 @@ const Projects2 = () => {
             fontSize: "16px",
           }}
         >
-          Project 2
+          Project 2 Hode-hub
         </span>
       </button>
 
@@ -81,7 +81,7 @@ const Projects2 = () => {
       {/* Retro Browser */}
       {!loading && showRetro && (
         <RetroBrowser
-          url="https://quickcart-background-remover.netlify.app/"
+          url="https://node-hub.vercel.app/"
           onClose={handleCloseProject}
         />
       )}

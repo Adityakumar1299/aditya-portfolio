@@ -63,7 +63,7 @@ const Projects = () => {
             fontSize: "16px",
           }}
         >
-          Project
+          Project - Ecommerce
         </span>
       </button>
 
